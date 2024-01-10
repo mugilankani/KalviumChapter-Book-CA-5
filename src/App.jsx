@@ -35,7 +35,9 @@ function App() {
             </div>
       <Routes>
         <Route path="/" element={<Home searchInput={value} />} />
+        <Route path="*" element={<Home searchInput={value} />} />
         <Route path="/form" element={<Form />} />
+
 
       </Routes>
     </div>
